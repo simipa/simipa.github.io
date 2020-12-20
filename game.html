@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>GAME</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="game.css">
+  <script src="game.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div id="message"></div>
+  <button class="START" onclick="start()">  START</button>
+  <div class="">
+    <button class="b" id="button1" onclick="savePlayerPattern(playerPattern, this.id)"></button>
+    <button class="b" id="button2" onclick="savePlayerPattern(playerPattern, this.id)"></button>
+    <br>
+    <button class="b" id="button3" onclick="savePlayerPattern(playerPattern, this.id)"></button>
+    <button class="b" id="button4" onclick="savePlayerPattern(playerPattern, this.id)"></button>
+  </div>
+  <div id ="score"></div>
+</body>
+
+</html>

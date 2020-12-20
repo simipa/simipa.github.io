@@ -1,0 +1,50 @@
+.START{
+    padding: 10px 10px 10px ;
+    background-color: rgb(247, 0, 255);
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-family: 'Courier New';
+    letter-spacing: 30px;
+
+   
+}
+.b{
+  padding: 50px 50px 50px 50px;
+  border-radius: 5px;
+}
+.b:active{
+    filter: brightness(0.4);
+}
+
+#button1{
+    background-color: red;
+}
+
+#button2{
+    background-color: green;
+}
+
+#button3{
+    background-color: yellow;
+}
+
+#button4{
+    background-color: blue;
+}
+
+.flash{
+  filter: brightness(0.4);
+}
+body{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 20%;
+}
+#message, #score{
+    font-family: 'Courier New';
+    text-align: center;
+    font-size: 20px;
+}
