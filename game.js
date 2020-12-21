@@ -19,7 +19,7 @@ function start() {
       nextLevel();
   start();
     }
-    else { document.getElementById("message").innerHTML = "GAME OVER"; }
+    else { document.getElementById("message").innerHTML = "GAME OVER !"; }
   
 
   }, n*2000);
