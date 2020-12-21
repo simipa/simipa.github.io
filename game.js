@@ -15,11 +15,11 @@ function start() {
   //  compare the two arrays pattern and playerPattern
   setTimeout(function(){
     if (compare(generatedPattern, playerPattern)) {
-      document.getElementById("message").innerHTML = "allez ssi brahim";
+      document.getElementById("message").innerHTML = "KEEP GOING !";
       nextLevel();
   start();
     }
-    else { document.getElementById("message").innerHTML = "you lost"; }
+    else { document.getElementById("message").innerHTML = "GAME OVER"; }
   
 
   }, n*2000);
